@@ -13,7 +13,7 @@ spring.profiles: prod1
 spring:
   cloud:
     config:
-      uri: http://configcenter.houbank.net/	#配置中心地址
+      uri: http://localhost:8000/	#配置中心地址
       profile: prod1
 
 ---
@@ -21,7 +21,7 @@ spring.profiles: prod2
 spring:
   cloud:
     config:
-      uri: http://configcenter.houbank.net/	#配置中心地址
+      uri: http://localhost:8000/	#配置中心地址
       profile: prod2
 
 ---
